@@ -12,6 +12,9 @@ The main areas of focus are:
 # Info on installing and running Apache kafka on windows
 https://towardsdatascience.com/running-zookeeper-kafka-on-windows-10-14fc70dcc771
 
+# Info on installing and running Apache kafka on MacOS
+https://medium.com/@Ankitthakur/apache-kafka-installation-on-mac-using-homebrew-a367cdefd273
+
 # Getting twitter access tokens
 1) Visit the Twitter Developers page using this link
 2) Click on Apps from your user-name dropdown
