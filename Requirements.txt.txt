@@ -1,0 +1,8 @@
+tweepy
+kafka
+pymongo
+pandas
+numpy
+datetime
+json
+matplotlib
