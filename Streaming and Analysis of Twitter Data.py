@@ -18,10 +18,10 @@ city_details = collection.find({}, {"_id" :0, "city" :1, "woeid" :1})
 formated_city_details = pd.DataFrame.from_records(city_details)
 
 ## Twiter API Access Details ## 
-access_token="361068964-kF9lTfEqRy2fnYbumko62hsNHvfAflmrsn2hWYqj"
-access_token_secret="RAqEzm7vaWp8xP5AfvaQ7qaA6ZfOoY0W3b6OSBfkV9FIP"
-consumer_key="GxPg2owNZRRgDoUxwwECcoJmP"
-consumer_secret="CsqWTRqi0PXhZzQuWi3kwz6Bes2e9mEeZudGXOKUXHOaQVEYrV"
+access_token=""
+access_token_secret=""
+consumer_key=""
+consumer_secret=""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -56,10 +56,10 @@ from kafka import SimpleProducer, KafkaClient
 from datetime import datetime
 
 ## Twiter API Access Details ## 
-access_token="361068964-kF9lTfEqRy2fnYbumko62hsNHvfAflmrsn2hWYqj"
-access_token_secret="RAqEzm7vaWp8xP5AfvaQ7qaA6ZfOoY0W3b6OSBfkV9FIP"
-consumer_key="GxPg2owNZRRgDoUxwwECcoJmP"
-consumer_secret="CsqWTRqi0PXhZzQuWi3kwz6Bes2e9mEeZudGXOKUXHOaQVEYrV"
+access_token=""
+access_token_secret=""
+consumer_key=""
+consumer_secret=""
 
 ## Taking keywords and topic name as input from user ##
 keyword_one = input("Please enter a keyword: ")
